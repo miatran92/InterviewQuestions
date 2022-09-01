@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
-import {getEmployeesComp}  from '../../utils/utils'
-import './Main.scss'
+import { getEmployeesComp }  from '../../utils/utils';
+import './Main.scss';
 
 function Main() {
-  const [employeeData, setEmployeeData] = useState()
+  const [employeeData, setEmployeeData] = useState([])
 
     useEffect(() => {
       const response = getEmployeesComp();
@@ -24,7 +24,7 @@ function Main() {
             </tr>
           </thead>
           <tbody>
-            {employeeData?.map((e) => 
+            {employeeData.map((e) => 
             <tr key={e.name}>
               <td>{e.name}</td>
               <td>{e.reg.toFixed(2)}</td>

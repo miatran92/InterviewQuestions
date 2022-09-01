@@ -6,6 +6,7 @@ This is my solution to the Total Compensation Test.
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,12 +23,16 @@ This is my solution to the Total Compensation Test.
 - Using the provided JSON data below, process the data to
   determine the amount paid to each employee.
 
+### Screenshot
+
+![](./public/assets/desktop.png)
+
 ## My process
 
 ### Build with
 
-- [React](https://reactjs.org/)
-- [SCSS](https://sass-lang.com/)
+- [React](https://reactjs.org/) - JS library
+- [SCSS](https://sass-lang.com/) - For styles
 
 ### What I learned
 
@@ -50,7 +55,7 @@ This is my solution to the Total Compensation Test.
   }
 ````
 
-<h3>For each employee, iterate again through array of objects</h3>
+<h3>Iterate again through array of objects</h3>
 
 ````
 ```js
