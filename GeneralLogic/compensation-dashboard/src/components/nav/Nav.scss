@@ -1,0 +1,19 @@
+@import '../../styles.scss';
+
+.navContainer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--main);
+    box-sizing: border-box;
+    padding: 10px;
+    .navWrapper{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 190px;
+        }
+    }
+}

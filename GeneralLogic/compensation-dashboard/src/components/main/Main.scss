@@ -1,0 +1,28 @@
+@import '../../styles.scss';
+
+.mainContainer{
+    padding: 20px;
+    table{
+        width: 100%;
+        border: solid lightgrey;
+        border-collapse: collapse;
+        thead{
+            background-color: lightgrey;
+            height: 50px;
+            tr{
+                th{
+                    border: solid darkgrey;
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    padding: 10px;
+                    border: solid lightgrey;
+                }
+            }
+        }
+        
+    }
+}
